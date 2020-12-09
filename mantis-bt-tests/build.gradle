@@ -1,0 +1,30 @@
+apply plugin: 'java'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.testng:testng:7.1.0'
+    implementation 'org.seleniumhq.selenium:selenium-java:4.0.0-alpha-6'
+    compile 'ch.qos.logback:logback-classic:1.1.5'
+    implementation 'org.hamcrest:java-hamcrest:2.0.0.0'
+    implementation 'commons-net:commons-net:3.4'
+    compile 'org.subethamail:subethasmtp:3.1.7'
+    compile 'ru.lanwen.verbalregex:java-verbal-expressions:1.4'
+    compile group: 'org.apache.httpcomponents', name: 'httpclient', version: '4.3.4'
+    implementation 'biz.futureware.mantis:mantis-axis-soap-client:1.2.19'
+}
+test {
+    useTestNG {
+    }
+    if (project.hasProperty('browser')) {
+        systemProperty 'browser', "${browser}"
+    }
+    if (project.hasProperty('target')) {
+        systemProperty 'target', "${target}"
+    }
+    if (project.hasProperty('verifyUI')) {
+        systemProperty 'verifyUI', "${verifyUI}"
+    }
+}
