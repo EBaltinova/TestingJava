@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ru.stqa.pft.mantis.tests.SoapTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-12-10T04:40:15" hostname="LAPTOP-4HRQGNJF" time="2.569">
+<testsuite name="ru.stqa.pft.mantis.tests.SoapTests" tests="1" skipped="1" failures="0" errors="0" timestamp="2020-12-10T07:08:24" hostname="LAPTOP-4HRQGNJF" time="1.293">
   <properties/>
-  <testcase name="testCreateIssue" classname="ru.stqa.pft.mantis.tests.SoapTests" time="2.569"/>
+  <testcase name="testCreateIssue" classname="ru.stqa.pft.mantis.tests.SoapTests" time="1.293">
+    <skipped/>
+  </testcase>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
