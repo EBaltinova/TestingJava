@@ -81,11 +81,14 @@
     <property name="settings.editor.selected.configurable" value="configurable.group.build" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ru.stqa.pft.rest" />
+    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="ru.stqa.pft.rest" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.ChangePasswordTests.testChangePassword">
+  <component name="RunManager" selected="Gradle.RestTests.testCreateIssue">
     <configuration name="ChangePasswordTests.testChangePassword" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -111,25 +114,6 @@
         <option name="externalProjectPath" value="$PROJECT_DIR$/mantis-bt-tests" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" value="--tests &quot;ru.stqa.pft.mantis.tests.LoginTests.testLogin&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="RestTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/rest-sample" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;ru.stqa.pft.rest.RestTests&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -181,13 +165,32 @@
       <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="rest-sample [test]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/rest-sample" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.RestTests.testCreateIssue" />
+        <item itemvalue="Gradle.rest-sample [test]" />
         <item itemvalue="Gradle.ChangePasswordTests.testChangePassword" />
         <item itemvalue="Gradle.mantis-bt-tests [test]" />
         <item itemvalue="Gradle.LoginTests.testLogin" />
-        <item itemvalue="Gradle.RestTests.testCreateIssue" />
-        <item itemvalue="Gradle.RestTests" />
       </list>
     </recent_temporary>
   </component>
@@ -223,38 +226,38 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="122" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1607668505611" />
-    <state width="1493" height="261" key="GridCell.Tab.0.bottom" timestamp="1607670746442">
+    <state width="1493" height="257" key="GridCell.Tab.0.bottom" timestamp="1607671007126">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1607670746442" />
-    <state width="1493" height="261" key="GridCell.Tab.0.center" timestamp="1607670746442">
+    <state width="1493" height="257" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1607671007126" />
+    <state width="1493" height="257" key="GridCell.Tab.0.center" timestamp="1607671007126">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1607670746442" />
-    <state width="1493" height="261" key="GridCell.Tab.0.left" timestamp="1607670746442">
+    <state width="1493" height="257" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1607671007126" />
+    <state width="1493" height="257" key="GridCell.Tab.0.left" timestamp="1607671007126">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1607670746442" />
-    <state width="1493" height="261" key="GridCell.Tab.0.right" timestamp="1607670746442">
+    <state width="1493" height="257" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1607671007126" />
+    <state width="1493" height="257" key="GridCell.Tab.0.right" timestamp="1607671007126">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1607670746442" />
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1607670746450">
+    <state width="1493" height="257" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1607671007126" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1607670916143">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1607670746450" />
-    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1607670746442">
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1607670916143" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1607670916143">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1607670746442" />
-    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1607670746442">
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1607670916143" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1607670916143">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1607670746442" />
-    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1607670746450">
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1607670916143" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1607670916143">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1607670746450" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1607670916143" />
     <state x="439" y="117" key="NewModule_or_Project.wizard" timestamp="1607668514033">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -286,13 +289,23 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/mantis-bt-tests/src/test/java/ru/stqa/pft/mantis/tests/ChangePasswordTests.java</url>
-          <line>30</line>
-          <option name="timeStamp" value="5" />
+          <line>29</line>
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/mantis-bt-tests/src/test/java/ru/stqa/pft/mantis/tests/ChangePasswordTests.java</url>
-          <line>29</line>
-          <option name="timeStamp" value="6" />
+          <line>30</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/mantis-bt-tests/src/test/java/ru/stqa/pft/mantis/tests/ChangePasswordTests.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/mantis-bt-tests/src/test/java/ru/stqa/pft/mantis/tests/ChangePasswordTests.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/mantis-bt-tests/src/test/java/ru/stqa/pft/mantis/appmanager/ChangePassHelper.java</url>
@@ -301,6 +314,14 @@
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/mantis-bt-tests/src/test/java/ru/stqa/pft/mantis/tests/ChangePasswordTests.java</url>
+          <line>24</line>
+          <properties class="ru.stqa.pft.mantis.tests.ChangePasswordTests" method="testChangePassword">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

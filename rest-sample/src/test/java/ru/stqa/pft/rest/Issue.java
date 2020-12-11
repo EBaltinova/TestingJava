@@ -8,6 +8,17 @@ public class Issue {
     private String subject;
     private String description;
 
+    public String getStatus() {
+        return status;
+    }
+
+    public Issue withStatus(String status) {
+        this.status = status;
+        return this;
+    }
+
+    private String status;
+
     public int getId() {
         return id;
     }
