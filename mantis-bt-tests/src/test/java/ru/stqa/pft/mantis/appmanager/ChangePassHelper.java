@@ -16,6 +16,7 @@ public class ChangePassHelper extends HelperBase {
         click(By.cssSelector("input[value='Login']"));
     }
     public void manageUsers(String user) {
+        click(By.cssSelector("body > table.width100 > tbody > tr > td:nth-child(1) > a:nth-child(7)"));
         click(By.cssSelector("body > div:nth-child(4) > p > span:nth-child(1) > a"));
         click(By.xpath("//html/body/table[3]/tbody/tr/td/a[contains(.,\"" + user + "\")]"));
         click(By.cssSelector("input[value='Reset Password']"));
