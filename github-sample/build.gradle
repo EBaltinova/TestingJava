@@ -1,0 +1,15 @@
+apply plugin: 'java'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.testng:testng:7.1.0'
+    compile 'com.jcabi:jcabi-github:0.27'
+}
+
+test {
+    useTestNG {
+    }
+}
