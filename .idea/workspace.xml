@@ -221,6 +221,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="249" y="0" key="#Project_Structure" timestamp="1609135839726">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="249" y="0" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1609135839726" />
     <state x="190" y="99" key="#com.intellij.ide.util.MemberChooser" timestamp="1607673500638">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -229,22 +233,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="122" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1607933491875" />
-    <state width="1493" height="257" key="GridCell.Tab.0.bottom" timestamp="1607933770628">
+    <state width="1493" height="257" key="GridCell.Tab.0.bottom" timestamp="1607934098039">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="257" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1607933770628" />
-    <state width="1493" height="257" key="GridCell.Tab.0.center" timestamp="1607933770628">
+    <state width="1493" height="257" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1607934098039" />
+    <state width="1493" height="257" key="GridCell.Tab.0.center" timestamp="1607934098038">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="257" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1607933770628" />
-    <state width="1493" height="257" key="GridCell.Tab.0.left" timestamp="1607933770628">
+    <state width="1493" height="257" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1607934098038" />
+    <state width="1493" height="257" key="GridCell.Tab.0.left" timestamp="1607934098038">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="257" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1607933770628" />
-    <state width="1493" height="257" key="GridCell.Tab.0.right" timestamp="1607933770628">
+    <state width="1493" height="257" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1607934098038" />
+    <state width="1493" height="257" key="GridCell.Tab.0.right" timestamp="1607934098039">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="257" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1607933770628" />
+    <state width="1493" height="257" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1607934098039" />
     <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1607676635879">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -281,15 +285,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1607670720271" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1609137009252">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1609137009252" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/mantis-bt-tests/src/test/java/ru/stqa/pft/mantis/tests/TestBase.java</url>
-          <line>46</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/mantis-bt-tests/src/test/java/ru/stqa/pft/mantis/tests/ChangePasswordTests.java</url>
           <line>29</line>
@@ -325,14 +328,6 @@
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/rest-sample/src/test/java/ru/stqa/pft/rest/RestAssuredTests.java</url>
-          <line>44</line>
-          <properties class="ru.stqa.pft.rest.RestAssuredTests" method="getIssue">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
